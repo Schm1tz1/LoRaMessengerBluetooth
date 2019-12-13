@@ -1,0 +1,19 @@
+//
+// Created by Roman on 30.11.2019.
+//
+
+#ifndef TTGO_LORA_ESP32_SX1276_LORA_PINSTTGO_H
+#define TTGO_LORA_ESP32_SX1276_LORA_PINSTTGO_H
+
+#define TTGO_SPI_HOST      HSPI_HOST
+#define TTGO_SPI_DMA_CHAN  1
+#define TTGO_PIN_SPI_SCLK  5
+#define TTGO_PIN_SPI_MOSI  27
+#define TTGO_PIN_SPI_MISO  19
+#define TTGO_PIN_NSS       18
+#define TTGO_PIN_RXTX      TTGO_NOT_CONNECTED
+#define TTGO_PIN_RST       14
+#define TTGO_PIN_DIO0      26
+#define TTGO_PIN_DIO1      33
+
+#endif //TTGO_LORA_ESP32_SX1276_LORA_PINSTTGO_H
